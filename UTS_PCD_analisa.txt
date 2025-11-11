@@ -1,0 +1,18 @@
+
+NO 1.
+
+Citra Asli :- Nilai keabuan bergantung pada kontras alami gambar (bisa sempit atau lebar).
+	    - Histogram bisa menumpuk di area tertentu (misal dominan gelap atau terang).
+
+Citra Negatif :- Nilai keabuan dibalik: piksel gelap jadi terang, terang jadi gelap.
+	       - Histogram terbalik dari citra asli — jika asli banyak nilai rendah, negatifnya akan banyak nilai tinggi.
+
+Citra Logaritmik :- Persebaran nilai keabuan lebih padat di area terang, dan melebar di area gelap.
+		  - Histogram bergeser ke kanan (nilai keabuan cenderung lebih tinggi).
+
+NO 2.
+
+Asli : Tampilan normal atau original
+LPF : Tampak lebih buram, detail halus hilang
+HPF : Tampak lebih tajam ditepi ,namuan area datar menjadi gelap
+BPF : Lebih tajam tapi tetap alami, detail tepi muncul tanpa kehilangan pencahayaan
